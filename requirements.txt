@@ -1,0 +1,7 @@
+# PassageGenerator 依赖
+#
+# 本项目使用 Python 标准库（urllib/json/argparse 等）实现 LLM 调用，
+# 无需任何第三方依赖即可运行，兼容 Python 3.5+。
+#
+# 因此 requirements.txt 实际为空。如需额外功能可按需安装：
+#   openai>=1.30.0   # 可选：若想在 Python 3.8+ 环境改用官方 SDK
